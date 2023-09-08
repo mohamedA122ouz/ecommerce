@@ -1,0 +1,78 @@
+.ulHeader {
+    display: flex;
+    list-style: none;
+    margin-right: 0px;
+    margin-bottom: 0;
+}
+
+.align {
+    cursor: default;
+    color: transparent;
+    width: 0px;
+    margin: auto;
+    padding: 0;
+}
+
+.avatar {
+    padding: 10px;
+}
+
+.avatar>img {
+    height: 44px;
+    padding: 0px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    transition: 250ms;
+    border: 2px solid transparent;
+}
+
+.avatar>img:hover {
+    transition: 250ms;
+    border-radius: 50%;
+    border: 2px solid orange;
+}
+
+li {
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 4px solid transparent;
+}
+
+.items {
+    opacity: 0.65;
+    transition: 250ms;
+}
+
+.items:hover {
+    opacity: 1;
+    transition: 250ms;
+    border-bottom: 4px solid orange;
+}
+
+.sideBar {
+    position: absolute;
+    z-index: 20;
+    background: white;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height:100%;
+    width: 0px;
+    transition: 500ms;
+    overflow: hidden;
+    padding: 0px;
+
+}
+
+.sideBar > ul{
+    list-style: none;
+    font-weight: bold;
+    width: 200px;
+
+}
+.closeSideBar{
+    text-align: end;
+}
+.cartIcon{
+    position: relative;
+}

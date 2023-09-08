@@ -1,0 +1,303 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: auto;
+}
+
+.sliderContainer {
+    margin: auto;
+}
+
+.description {
+    width: 100%;
+    /* opacity: 0.75; */
+    color: gray;
+}
+
+.details {
+    width: 35%;
+    margin: auto;
+}
+
+.details>.title>h1 {
+    /* margin-top:0 ; */
+    font-size: 2.5rem;
+}
+
+.company {
+    color: orange;
+    font-weight: bolder;
+    font-size: small;
+    letter-spacing: 2px;
+}
+
+.priceDetails {
+    margin-top: 20px;
+}
+
+.discountDetails {
+    display: flex;
+    align-items: center;
+}
+
+.PayPrice {
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.discount {
+    color: orange;
+    background-color: rgba(211, 211, 211, 0.596);
+    border-radius: 5px;
+    padding: 2px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.priceBeforeDiscount {
+    text-decoration: line-through;
+    opacity: 0.3;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.absoluteContainer {
+    background-color: rgba(0, 0, 0, 0.753);
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: 30;
+    top: 0px;
+    left: 0px;
+}
+
+.absoluteContainer>.active {
+    background-color: white;
+}
+
+.absoluteContainer>.sliderContainer {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.absoluteContainer>.sliderContainer>.forward {
+    display: flex;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: -13%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+    transition: 250ms;
+}
+
+
+.absoluteContainer>.sliderContainer>.forward>svg {
+    margin: auto;
+}
+
+.absoluteContainer>.sliderContainer>.forward:hover>svg>path {
+    stroke: orange !important;
+    transition: 250ms;
+}
+
+.absoluteContainer>.sliderContainer>.forward>svg>path {
+    transition: 250ms;
+}
+
+.absoluteContainer>.sliderContainer>.backward {
+    display: flex;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.absoluteContainer>.sliderContainer>.backward>svg {
+    margin: auto;
+}
+
+.absoluteContainer>.sliderContainer>.backward>svg>path {
+    transition: 250ms;
+}
+
+.absoluteContainer>.sliderContainer>.backward:hover>svg>path {
+    transition: 250ms;
+    stroke: orange !important;
+
+}
+
+.absoluteContainer>.sliderContainer>.close {
+    display: flex;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: -12%;
+    top: -5%;
+    transform: translate(-50%, -50%);
+    transition: 250ms;
+}
+
+.absoluteContainer>.sliderContainer>.close>svg {
+    margin: auto;
+}
+
+.absoluteContainer>.sliderContainer>.close>svg>path {
+    transition: 250ms;
+}
+
+.absoluteContainer>.sliderContainer>.close:hover>svg>path {
+    fill: orange;
+    transition: 250ms;
+}
+
+.absoluteContainer>.sliderContainer>.showBar>.showImg {
+    cursor: default;
+}
+
+@media (max-width:800px) {
+    /* myHeader */
+    .ulHeader {
+        padding: 0;
+        margin-top: 0;
+        height: fit-content;
+    }
+    .ulHeader >*{
+        height: 1rem;
+    }
+    .sideBar{
+        height: auto;
+    }
+    .avatar{
+        height: 2rem;
+    }
+    .avatar>img{
+        height: 2rem;
+    }
+    /* content  */
+    .content {
+        flex-direction: column;
+        padding: 0;
+    }
+    /* CONTENT IMAGE */
+    .showImg {
+        /* height: 260px; */
+        height: 35vh;
+        width: 100vw;
+        /* width: 100%; */
+        border-radius: 0px;
+    }
+    .showBar {
+        width: 100%;
+    }
+
+    .slideBar {
+        display: none;
+    }
+
+    .forward {
+        display: flex;
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        right: -3% !important;
+        top: 30%;
+        transform: translate(-50%, -50%);
+        transition: 250ms;
+    }
+
+
+    .forward>svg {
+        margin: auto;
+    }
+
+    .forward:hover>svg>path {
+        stroke: orange !important;
+        transition: 250ms;
+    }
+
+    .forward>svg>path {
+        transition: 250ms;
+    }
+
+    .backward {
+        display: flex;
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        left: 10% !important;
+        top: 30%;
+        transform: translate(-50%, -50%);
+    }
+
+    .backward>svg {
+        margin: auto;
+    }
+
+    .backward>svg>path {
+        transition: 250ms;
+    }
+
+    .backward:hover>svg>path {
+        transition: 250ms;
+        stroke: orange !important;
+    }
+    .absoluteContainer>.sliderContainer>.close {
+        right: 1%;
+        top: -15%;
+
+    }
+    /* CONTENT DETAILS */
+    .title>h1{
+        font-size: 1.9rem !important;
+    }
+    .details {
+        margin: 15px;
+        width: fit-content;
+    }
+
+    .buttonControlls {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .priceDetails {
+        display: flex;
+    }
+    .discountDetails {
+        margin-right: auto;
+    }
+
+    /* CONTENT BUTTONS */
+
+    .controlls {
+        width: 100% !important;
+        margin: auto;
+    }
+
+    button {
+        width: 100% !important;
+        height: 50px;
+        margin: auto !important;
+    }
+    .appHr{
+        display: none;
+    }
+    
+    .cart{
+        top:70px !important;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

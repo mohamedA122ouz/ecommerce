@@ -1,0 +1,23 @@
+.website>* {
+    -webkit-tap-heightlight-color: transparent;
+}
+
+.appHr {
+    margin: 0px 60px;
+}
+
+.website {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+/* absoluteContainer hideContentDiv hideContent showContent */
+.hideContentDiv{
+    z-index: 20 !important;
+}
+.hideContent{
+    display: block;
+}
+.showContent{
+    display: none;
+}

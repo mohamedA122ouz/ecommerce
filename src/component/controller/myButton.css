@@ -1,0 +1,61 @@
+.buttonControlls {
+    display: flex;
+    margin-top: 30px;
+}
+
+.controlls {
+    display: flex;
+    width: 30%;
+}
+
+.controlls>* {
+    width: 33%;
+    background-color: lightgray;
+    display: flex;
+    cursor: pointer;
+    user-select: none;
+    padding: 15px;
+}
+
+.controlls>.minus>* {
+    height: 4px;
+}
+
+.counter {
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+}
+
+.controlls>*>* {
+    height: 12px;
+    width: 12px;
+    margin: auto;
+}
+
+button {
+    color: white;
+    margin-left: 10px;
+    background-color: orange;
+    width: 65%;
+    border: 0px;
+    outline: 0;
+    border-radius: 10px;
+    transition: 250ms;
+    cursor: pointer;
+}
+
+button:hover {
+    transition: 250ms;
+    box-shadow: 0 10px 30px -10px orange;
+}
+
+button>svg {
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-top: -4px;
+}
+
+button>svg>path {
+    fill: white;
+}
