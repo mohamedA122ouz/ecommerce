@@ -168,6 +168,7 @@
     /* myHeader */
     .ulHeader {
         padding: 0;
+        margin-right: 0px;
         margin-top: 0;
         height: fit-content;
     }
