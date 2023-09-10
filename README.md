@@ -1,70 +1,66 @@
-# Frontend Mentor - IP address tracker solution
+# Frontend Mentor - E-commerce product page solution
 
-This is a solution to the [IP address tracker challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [E-commerce product page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
-- [Frontend Mentor - IP address tracker solution](#frontend-mentor---ip-address-tracker-solution)
+- [Frontend Mentor - E-commerce product page solution](#frontend-mentor---e-commerce-product-page-solution)
   - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
     - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
     - [Links](#links)
+  - [My process](#my-process)
     - [Built with](#built-with)
-    - [What I learned](#what-i-learned)
     - [Useful resources](#useful-resources)
   - [Author](#author)
 
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
+## Overview
 
 ### The challenge
 
 Users should be able to:
 
-- View the optimal layout for each page depending on their device's screen size
+- View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
-- See their own IP address on the map on the initial page load
-- Search for any IP addresses or domains and see the key information and location
+- Open a lightbox gallery by clicking on the large product image
+- Switch the large product image by clicking on the small thumbnail images
+- Add items to the cart
+- View the cart and remove items from it
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot1.jpg)
 ![](./screenshot2.jpg)
+
 
 ### Links
 
-- Solution URL: [solution URL here](https://github.com/mohamedA122ouz/findIP)
-- Live Site URL: [live site URL here](https://mohameda122ouz.github.io/findIP)
+- Solution URL: [Add solution URL here](https://github.com/mohamedA122ouz/ecommerce)
+- Live Site URL: [Add live site URL here](https://mohamedA122ouz.github.io/ecommerce)
 
+## My process
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-
-### What I learned
-
-I learned how to use forward ref in react JS 
-
-
-```JSX
-const SomeElement = forwardRef(({orops},ref)=>{
-  return <h1 ref = {ref}></h1>
-});
-```
-
 
 
 
 ### Useful resources
 
-- [React](https://react.dev/) - learn react from scratch.
-- [React Forward Ref](https://react.dev/reference/react/forwardRef) - This is an amazing doc which helped me understand how to use forward Ref . I'd recommend it to anyone still learning this concept.
+- [react docs](https://react.dev)
+- [w3schools](https://www.w3schools.com) - helped me with some css
 
 
 ## Author
 
-- Website - [@mohamed ahmed azouz](https://mohameda122ouz.github.io/coursera-work/RAAM)
+- Website - [Mohamed Ahmed Azouz](https://mohamedA122ouz.github.io/coursera-work/RAAM)
 - Frontend Mentor - [@mohamed ahmed azouz](https://www.frontendmentor.io/profile/mohamedA122ouz)
